@@ -24,7 +24,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:  Container(),
+      home:  Container(
+        color: Color(5454545455),
+      ),
     );
   }
 }
