@@ -26,8 +26,12 @@ class MyApp extends StatelessWidget {
       ),
       home: Column(
         children: [
-          Container(
-            color: Color(696566565),
+          Column(
+            children: [
+              Container(
+                color: Color(696566565),
+              ),
+            ],
           ),
           Container(
             color: Color(696566565),
